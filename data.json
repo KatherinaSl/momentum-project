@@ -1,0 +1,45 @@
+{
+    "en": [{
+        "text": "We cannot solve problems with the kind of thinking we employed when we came up with them.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Learn as if you will live forever, live like you will die tomorrow.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "When you change your thoughts, remember to also change your world.",
+        "author": "Norman Vincent Peale"
+    },
+    {
+        "text": "It is better to fail in originality than to succeed in imitation.",
+        "author": "Herman Melville"
+    },
+    {
+        "text": "Do not let yesterday take up too much of today.",
+        "author": "Will Rogers"
+    }],
+    "be": [
+        {
+            "text": "Мы не можам вырашаць праблемы з такім мысленнем, якое мы выкарыстоўвалі, калі прыдумалі іх.",
+            "author": "Альберт Эйнштэйн"
+        },
+        {
+            "text": "Вучыся так, быццам ты будзеш жыць вечна, жыві так, быццам ты памрэш заўтра.",
+            "author": "Махатма Гандзі"
+        },
+        {
+            "text": "Калі вы змяняеце свае думкі, не забудзьце таксама змяніць свой свет.",
+            "author": "Норман Вінцэнт Піл"
+        },
+        {
+            "text": "Лепш пацярпець няўдачу ў арыгінальнасці, чым атрымаць поспех у перайманні.",
+            "author": "Герман Мелвіл"
+        },
+        {
+            "text": "Не дазваляйце ўчарашняму дню заняць занадта шмат сённяшняга дня.",
+            "author": "Уіл Роджэрс"
+        }
+    ]
+
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/favicon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="css/owfont-regular.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>momentum</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="player">
+            <div class="player-controls">
+                <button class="play-prev player-icon"></button>
+                <button class="play player-icon"></button>
+                <button class="play-next player-icon"></button>
+                <div class="song-slider">
+                    <p class="song-title"> </p>
+                    <input type="range" value="0" class="progress-bar">
+                    <span class="current-time">00:00</span>
+                    <span class="duration">00:00</span>
+                </div>
+                <i style="font-size:24px" class="fa">&#xf028;</i>
+                <div class="volume">
+                    <input type="range" value="0" class="volume-bar">
+                </div>
+                <audio src=""></audio>
+            </div>
+
+            <ul class="play-list"></ul>
+
+        </div>
+        <div class="weather">
+            <input type="text" class="city" />
+            <i class="weather-icon owf"></i>
+            <div class="weather-error">city not found</div>
+            <div class="description-container">
+                <span class="temperature"></span>
+                <span class="weather-description"></span>
+            </div>
+            <div class="wind"></div>
+            <div class="humidity"></div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="slider-icons">
+            <button class="slide-prev slider-icon"></button>
+            <button class="slide-next slider-icon"></button>
+        </div>
+        <time class="time"></time>
+        <date class="date"></date>
+        <div class="greeting-container">
+            <span class="greeting"></span>
+            <input type="text" class="name" placeholder="[Enter name]" />
+        </div>
+    </main>
+    <footer class="footer">
+        <button class="change-quote"></button>
+        <div>
+            <div class="quote"></div>
+            <div class="author"></div>
+        </div>
+        <div class="switch">
+            <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+            <label for="language-toggle"></label>
+            <span class="on">BE</span>
+            <span class="off">EN</span>
+        </div>
+    </footer>
+    <script type='module' src="js/script.js"></script>
+</body>
+
+</html>
